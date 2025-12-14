@@ -392,8 +392,8 @@
                 <a href="#" class="profile-btn" data-bs-toggle="modal" data-bs-target="#profileModal">
                     <div class="user-avatar">JD</div>
                     <div>
-                        <div style="font-weight: 600;">Jovan Nigger</div>
-                        <small class="text-muted">ID: 2023-00123</small>
+                        <div style="font-weight: 600;">{{ Auth::user()->name }}</div>
+                        <small class="text-muted">{{ Auth::user()->student_id }}</small>
                     </div>
                 </a>
             </div>
